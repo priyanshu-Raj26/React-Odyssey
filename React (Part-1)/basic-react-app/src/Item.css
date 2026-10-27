@@ -1,0 +1,8 @@
+.Item {
+  border: 2px solid #e0c367;
+  border-radius: 14px;
+  background-color: skyblue;
+  margin-left: 15px;
+  width: 225px;
+  height: 160px;
+}
