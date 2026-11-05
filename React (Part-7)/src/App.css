@@ -1,0 +1,89 @@
+.weather-app {
+  width: min(100% - 48px, 1120px);
+  margin: 0 auto;
+  padding: 30px 0 44px;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 92px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: #1e2523;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.brand svg {
+  color: #df6949;
+  font-size: 1.5rem;
+}
+
+.header-note,
+.footer-note {
+  margin: 0;
+  color: #7a8078;
+  font-size: 0.78rem;
+}
+
+.hero-copy {
+  max-width: 590px;
+  margin-bottom: 34px;
+}
+
+.eyebrow {
+  margin: 0;
+  color: #df6949;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+}
+
+.hero-copy h1 {
+  margin: 12px 0 13px;
+  color: #1e2523;
+  font-size: clamp(2.9rem, 7vw, 5.2rem);
+  letter-spacing: -0.065em;
+  line-height: 0.94;
+}
+
+.hero-copy h1 em {
+  color: #df6949;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+
+.hero-copy > p:last-child {
+  max-width: 430px;
+  margin: 0;
+  color: #68716a;
+  font-size: 0.98rem;
+  line-height: 1.7;
+}
+
+.footer-note {
+  margin-top: 22px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .weather-app {
+    width: min(100% - 28px, 1040px);
+    padding-top: 22px;
+  }
+
+  .app-header {
+    margin-bottom: 56px;
+  }
+
+  .header-note {
+    display: none;
+  }
+}
